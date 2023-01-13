@@ -5,7 +5,8 @@ export default function Prrimeiro() {
     return(
         <div>
             <h1>Primeiro component jsx</h1>
-            <p> { msg }  </p>
+            <p> {msg}  </p>
+            
         </div>
         
     )
