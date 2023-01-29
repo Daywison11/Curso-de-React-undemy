@@ -4,7 +4,7 @@ export default function Prrimeiro() {
   const msg = "hello world";
   return (
     <div>
-      <h1>Primeiro component jsx</h1>
+      <h2>Primeiro component jsx</h2>
       <p> {msg} </p>
     </div>
   );
