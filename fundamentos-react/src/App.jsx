@@ -1,5 +1,5 @@
 //referenciando arquivo css
-import { ReactDOM } from "react";
+
 import React from "react";
 
 import "./index.css";
@@ -13,9 +13,10 @@ import Fragmento from "./components/basicos/Fragmento";
 
 import Primeiro from "./components/basicos/Primeiro";
 
-export default (_) => (
-  <div>
+export default () => (
+  <div id="app">
     <h1>Fundamentos React </h1>
+    <Aleatorio valorMaximo={5} valorMinimo={12}></Aleatorio>
     <Fragmento />
     <ComParametro
       titulo="Situação do aluno"
@@ -24,6 +25,5 @@ export default (_) => (
     />
     <Primeiro></Primeiro>
 
-    <Aleatorio valorMaximo={5} valorMinimo={12}></Aleatorio>
   </div>
 );
